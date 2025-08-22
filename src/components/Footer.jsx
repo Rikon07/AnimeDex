@@ -38,7 +38,7 @@ export default function Footer() {
         <div className="pointer-events-none absolute inset-0 -z-10 bg-grid [mask-image:radial-gradient(80%_120%_at_50%_0%,black_40%,transparent_100%)]" />
 
         <div className="max-w-7xl mx-auto px-4 py-10 md:py-14">
-          <div className="grid gap-10 md:grid-cols-3">
+          <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-3">
             {/* Brand + socials */}
             <div className="space-y-4">
               <Link href="/" className="inline-block">
@@ -51,7 +51,7 @@ export default function Footer() {
               </p>
               <div className="flex items-center gap-3">
                 <a
-                  href="https://github.com/"
+                  href="https://github.com/Rikon07"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="GitHub"
